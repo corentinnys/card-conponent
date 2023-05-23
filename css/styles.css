@@ -1,0 +1,25 @@
+body{
+    background: darkslateblue;
+}
+
+.center{
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
+
+.rounded{
+    border-radius: 20px;
+}
+body>section:first-child{
+    background: white;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+
+}
