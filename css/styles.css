@@ -12,6 +12,9 @@ body{
 .rounded{
     border-radius: 20px;
 }
+.color-white{
+    color: white;
+}
 figure img{
     height: 200px;
 }
@@ -19,10 +22,26 @@ body>section:first-child{
     background: white;
     width: 30%;
     margin: auto;
-    padding: 15px;
+    padding: 5px;
+    background: rebeccapurple;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border-radius: 20px;
 
 }
+
+figure {
+    margin: 5px;
+}
+
+h1, main p
+{
+    text-align: left;
+    padding: 5px;
+    margin-left: 5px;
+}
+main{
+    border-bottom: 1px solid gray;
+}
+
