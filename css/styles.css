@@ -12,9 +12,12 @@ body{
 .rounded{
     border-radius: 20px;
 }
+figure img{
+    height: 200px;
+}
 body>section:first-child{
     background: white;
-    width: 50%;
+    width: 30%;
     margin: auto;
     padding: 15px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
